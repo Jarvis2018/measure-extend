@@ -5,6 +5,7 @@
 ## 使用方法
 在导出的标注文件中，在根目录下找到`index.html`，编辑该文件，在文档最后，比如在`<body id="app"></body>`下
 一行添加如下代码：
+<img style="width:200px;" src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/beb2e1c15a4c428ca100e54b153e51d6~tplv-k3u1fbpfcp-zoom-1.image">
 ```javascript
   <script src="https://cdn.jsdelivr.net/gh/Jarvis2018/measure-extend/index.js"></script>
 ```
