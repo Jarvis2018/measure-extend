@@ -1,5 +1,5 @@
 /**
- * @Description: measure-extend v1.0.0
+ * @Description: measure-extend v1.0.1
  * @author jarvis
 */
 (function (SMApp) {
@@ -184,10 +184,10 @@
           return valueItem
         })
 
-        return attrName + ':' + attrValues.join(' ');
+        return attrName + ':' + attrValues.join(' ') + ';';
       })
     };
     const newLayerDataCssCode = adapterLayerDataCssCode(cssArray);
-    codeTemplateEle.val(newLayerDataCssCode);
+    codeTemplateEle.val(newLayerDataCssCode.join(''));
   });
 })(SMApp);
